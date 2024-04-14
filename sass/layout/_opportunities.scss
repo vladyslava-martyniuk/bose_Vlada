@@ -1,0 +1,28 @@
+.opportunities {
+  padding-bottom: 52px;
+}
+.opportunities__list {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.opportunities__item {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+.opportunities__item::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: $accent;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.opportunities__text {
+  font-size: 14px;
+  line-height: 1.25;
+}
